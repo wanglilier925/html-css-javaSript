@@ -1,0 +1,4 @@
+body{background-color:blue}
+div{height:250px ; width:300px ; font-size:23pt ; background-color:#0080ff ; text-align:center ; transform:rotate(80deg) ; text-shadow: 2px 2px 0px ##bfff00 ; border-width:6px ; border-style:solid ; border-color:#bf00ff}
+div:hover{background-color:#bf4040 ; color:#ff8080 ; transform:rotate(-80deg) ; border: 12px dotted rebeccapurple}
+.dog:hover{transform:rotate(180deg)}

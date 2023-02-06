@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Sambit Mukherjee, snowtion 2, October 20 2021-->
+<title>Lab9B</title>
+
+<meta charset="UTF-8">
+</head>
+
+<body>
+
+<h2>Sambit Mukherjee, snowtion 2, October 20, 2021</h2>
+<br>
+    <img onmouseover="this.src= 'AllImages/Lab 9/Lily.jpg'; 
+                  getElementById('Lion').src = 'AllImages/Lab 9/Lily.jpg'; " src="AllImages/Lab 9/Ragnarok.jpg" alt="Ragnarok" width="300" height="250">
+    <img id="Lion" src="AllImages/Lab 9/Lion.jpg" alt="Lion" width="300" height="250">
+
+  
+    
+<h2>Heading h2</h2>
+    <img id="me" 
+         onmouseover="swap('me','dragon');" 
+         onmouseout="swap('dragon','me')"
+         src="AllImages/Lab 9/Sambit.jpg" alt="My pic" width="300" height="300">
+    
+    <img id="dragon" 
+         onmouseover="swap('me','dragon');" 
+         onmouseout="swap('dragon','me')"
+         src="AllImages/Lab 9/Dragon.jpg" alt="Dragon" width="300" height="300">
+    
+    
+    
+ <br>      
+    <img id="rain" 
+         onmouseover="ChangeTwo('snow', 'AllImages/Lab 9/Lion.jpg')"  onmouseout="ChangeTwo('snow', 'AllImages/Lab 9/SnowMountain.jpg')" 
+         
+         src="AllImages/Lab 9/Lily.jpg" alt="Lily" width="300" height="300">
+
+
+    <img id="snow" 
+         onmouseover="ChangeTwo('hail', 'AllImages/Lab 9/HailStorm.jpg')" onmouseout="ChangeTwo('hail', 'AllImages/Lab 9/Lily.jpg')" 
+         
+         src="AllImages/Lab 9/SnowMountain.jpg" alt="Snow Mountain" width="300" height="300">
+
+    <img id="hail" 
+         onmouseover="ChangeThree('rain', 'snow', 'AllImages/Lab 9/Rainy day.jpg')"  onmouseout="ChangeFour('rain', 'snow', 'hail', 'AllImages/Lab 9/Sambit.jpg')" 
+         
+         src="AllImages/Lab 9/Lily.jpg" alt="l3" width="300" height="300">   
+
+
+<script>
+    function swap(a, b){
+        var temp = document.getElementById(a).src;
+        document.getElementById(a).src = document.getElementById(b).src;
+        document.getElementById(b).src = temp;
+    }
+    function ChangeTwo(c, d){
+        document.getElementById(c).src = d;
+    }
+    function ChangeThree(e,f, z){
+        document.getElementById(e).src = z;
+        document.getElementById(f).src = z;
+    }
+    function ChangeFour(j,k,l, image){
+        document.getElementById(j).src = image;
+        document.getElementById(k).src = image;
+        document.getElementById(l).src = image;
+    }
+
+</script>
+
+</body>
+</html>

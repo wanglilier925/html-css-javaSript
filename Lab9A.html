@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Sambit, Section 2, October 20,2021-->
+<title>lab9A</title>   
+<meta charset="UTF-8">
+
+<script>
+	var myName;
+	myName = prompt("+“ ”+Please input your name : ")
+	alert(myName);
+</script>
+
+
+</head>
+
+
+<body>
+<h1 onmouseover="document.getElementById(me).style.backgroundColor='pink'"> My first page</h1>
+<h2>Sambit Mukherjee, October 20,2021</h2>
+<h4 id="name" onmouseover="this.style.backgroundColor='red';" onmouseout="this.style.backgroundColor='white'" >LILI's happy</h4>
+<h5 onclick= "color = prompt('put on a color'); this.style.backgroundColor=color"> my happy thing</h5>
+<h3 onclick="document.body.style.backgroundColor='teal';this.style.backgroundColor = 'purple';"> I am a Lab Instructor</h3>
+
+<img id="me" onmouseover="onMouse('AllImages/Lab 9/Rainy day.jpg');"  onmouseout="onMouse('AllImages/Lab 9/Sambit.jpg');" src="AllImages/Lab 9/Sambit.jpg" alt="Me" width="200" height="250">
+
+<h2 id="rain" onclick="onClick('AllImages/Lab 9/Rainy day.jpg');">Rain</h2>
+<img id="snow" src="AllImages/Lab 9/SnowMountain.jpg" alt="Snow" width="200" height="250">
+
+    
+<script>
+
+function onMouse(a){
+	document.getElementById("me").src = a;
+}
+function onClick(b){
+	document.getElementById("snow").src = b;
+	document.getElementById("rain").innerHTML= "It's raining!";
+}
+</script>
+
+
+</body>
+</html>

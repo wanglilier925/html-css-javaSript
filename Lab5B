@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+<!--Witt Coleman , Section 2 , Sambit Mukherjee , September 23, 2021 -->
+<meta charset = "utf-8">
+<title> Lab 5B2 </title>
+<link rel = "stylesheet" href = "lab5BWC.css">
+</head>
+<body>
+<h1 id = "dog" class = "cow"> Witt Coleman </h1>
+<h2 class = "cow"> How Internet Usage Changed</h2>
+<p id = "cat"> When the pandemic hit and everything closed down, one of the main changes in technology usage was the increase in the use of the internet. Specifically, Facebook saw an <em> increase of 27% </em> from January 2020 to March 2020. In that same time frame, Netflix and Youtube saw increases of 16% and 15% respectively. In addition, people shifted away from only using their phones all the time to using computers more as work and talk from home became increasingly important. Social media apps were not the only thing to grow on the internet during the pandemic. <strong> Video chat features </strong> also saw a drastic increase in use that we still see today with Zoom being a crucial part of education and communication worldwide</p>
+<h2 class = "pig cow"> Technology Divides </h2>
+<p> Not everyone was able to smoothly transition to a life centered around online interactions when the pandemic hit. First, for some people the <strong> speed of the internet </strong> provided was a major limitation for working and schooling from home as almost 50% of people reported a slow down in their "high speed" internet. Second, <em> affordability </em> was, and still is, a major concern during the pandemic. People have been working to secure stable jobs and make a living in the unstable world that we live in now. The pandemic shook up many people's economic situations and forced funds to be allocated to the essentials. This does not always translate to internet and phone bills being paid. This contributed to a homework gap around the nation. </p>
+<h2 class = "pig cow"> My Thoughts </h2>
+<p> For me, the pandemic resulted in me spending many hours on my computer for classes and entertainment when socializing with friends and family was not possible. I became too dependent on <em>video games </em> for entertainment and did not get enough exercise or "device-free" time. My internet speed definitely decreased during the pandemic. This was an issue as my families internet usage only grew over the many months following the beginning of the pandemic. In the end, I have become more familiar with technology which is both good and bad as <strong> time away from technology </strong> is crucial to a healthy life.</p>
+<h2 class = "cow"> Conclusion</h2>
+<p class = "pig"> Technology usage drastically changed throughout the pandemic. Internet increased on all fronts. People were forced to entertain, learn, work, and socialize through a screen for months. However, this was not always easy for some people as slower internet speeds and issues of affordability limited how some household's use of technology could be used effectively. I saw many changes in my own life, specifically with an increase in video game usage and a lack of time outside. The pandemic will forever be remembered for changing how technology wil be used by people for years to come.</p>
+<h5 class = "cow"> References </h5>
+<ul>
+<li><small> <a href = "https://www.nytimes.com/interactive/2020/04/07/technology/coronavirus-internet-use.html"> New York Times Reference for Internet Usage </a> </small> </li>
+<li><small> <a href = "https://www.pewresearch.org/internet/2021/09/01/the-internet-and-the-pandemic/"> PEW Research Reference for Technology Divides </a> </small> </li>
+</ul>
+<h6 style = "color:dodgerblue ; font-style:italic ; text-decoration:underline" class = "cow"> September 23, 2021 , Witt Coleman , Section 2</h6>
+</body>
+</html>

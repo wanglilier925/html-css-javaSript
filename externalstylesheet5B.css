@@ -1,0 +1,10 @@
+body{background-image:url(Ragnarok.jpg) ; background-repeat:repeat-x ; background-size:60px 60px}
+#rain{color:#2a009d}
+p{color:blue ; background-color:brown}
+#hail{color:blue ; background-color:red}
+.hurricane{color:green ; text-decoration:underline}
+h5{font-style:italic}
+strong{background-color:bown}
+em{background-color:pink}
+h2{font-size:32pt}
+.snow:hover{font-size:47pt}
